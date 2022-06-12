@@ -1,0 +1,308 @@
+.body
+{
+width: 100%;
+height: 600px;
+background:#EAF6F6;
+display: flex ;
+margin: auto;
+}
+hr{
+    border-color: white;
+    border-style: dotted none none;
+    border-width: 5px;
+    max-width: 100px;
+   
+ }
+.right-side
+{
+display: flex;
+float:left;
+width: 20%;
+padding: 20px;
+height: 300px;
+}
+.right-side .about-img
+{
+    position: absolute;
+    top: 100px;
+    left: 670px;
+}
+
+.about-img::before
+{
+position: absolute;
+right: -30px;
+top: 15px;
+border: 10px solid rgba(31, 30, 30, 0.5);
+width: 100%;
+height: 100%;
+}
+.about-img img
+{
+height: 450px;
+width: 100%;
+}
+.left-side
+{
+display: flex;
+margin-top: 30px;
+float: left;
+width: 100%;
+padding: 60px;
+height: 400px;
+}
+ .kingdom
+{
+color:  #66BFBF;
+font-size: 40px;
+margin-left: 39%;
+}
+h2{
+    text-align: center;
+    color:  #66BFBF;
+font-size: 30px;
+}
+h3{
+    color:#11999E ;
+}
+.name{
+    color: #66BFBF;
+}
+.rbooks{
+    text-align: center;
+    font-size: 25px;
+margin-left: auto;
+margin-bottom: 25px;
+margin-top: 25px;
+text-align: center;
+color:  #66BFBF;
+}
+.list{
+    text-align: center;
+    line-height: 2;
+    font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.books{
+    text-align: center;
+    line-height: 2;
+    font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.welcome{
+    text-align: center;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.pa{
+    text-align: center;
+    line-height: 2;
+    font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.info h2
+{
+font-size: 25px;
+margin-left: 40px;
+margin-bottom: 25px;
+margin-top: 25px;
+}
+.info h2 span
+{
+color: #66BFBF;
+font-size: 35px;
+
+}
+
+.info a
+{
+text-decoration: none;
+color: black;
+margin-top: 10px;
+}
+.info a i
+{
+font-size: 1.5rem;
+}
+.container2
+{
+width: 95%;
+height: auto;
+padding: 10px;
+margin: 80px auto;
+display: flex ;
+justify-content: center;
+}
+.box
+{
+width: 380px;
+height: 700px;
+background:#66BFBF;
+margin: 0px 10px;
+transition: 1s;
+}
+.box:hover
+{
+transform: scale(1.1);
+background: white ;
+box-shadow: 2px 2px 2px #000;
+z-index: 2;
+}
+.box-img img
+{height: 110px;
+width: 110px;
+background-size: cover;
+background-position: center;
+border-radius: 50px;
+transform: translate(-50%,-50%);
+position: relative;
+margin-top: 30%;
+margin-left: 50%;
+}
+.box-text
+{
+padding: 10px;
+margin: 5px;
+}
+.box-f{
+    text-align: center;
+    line-height: 22px;
+font-size: 16px;
+margin-left: 20px;
+margin-bottom: 12px;
+color:#11999E;
+}
+.box-a{
+    text-align: center;
+    line-height: 22px;
+font-size: 16px;
+margin-left: 20px;
+margin-bottom: 12px;
+color:#11999E;
+}
+    .box-s{
+        text-align:center;
+        line-height: 22px;
+        font-size: 16px;
+        margin-left: 20px;
+        margin-bottom: 12px;
+        color:#11999E;}
+
+
+.box-text a
+{
+background:#66BFBF;
+color: #000;
+padding: 7px 15px;
+display: inline-block;
+text-decoration: none;
+text-transform: capitalize;
+position: relative;
+margin-top: 10% ;
+margin-left: 35% ;
+}
+.box-text a:hover
+{
+background-color:#66BFBF;
+color: whitesmoke;
+font :bold;}
+
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: cursive;
+}
+body
+{
+background-color:white;
+}
+.put{
+    line-height: 22px;
+font-size: 20px;
+margin-left: 40px;
+margin-bottom: 25px
+}
+footer
+{
+position: absolute;
+top: 1600px;
+background:#66BFBF ;
+height:350px;
+width: 100vw;
+font-family: cursive;
+padding: 40px;
+}
+.footer-content
+{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+text-align: center;
+margin-top: 100px;
+
+}
+.footer-content hr
+{
+width: 70%;
+margin-left: auto;
+margin-right: auto;
+}
+.footer-content h3
+{
+font-size: 2.0rem;
+font-weight: 400;
+text-transform: uppercase;
+line-height: 3.5rem;
+}
+.socials
+{
+list-style: none;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom: 100px;
+margin-top: 10px;
+
+
+}
+.socials li
+{
+margin: 0 12px;
+}
+.socials a
+{
+text-decoration: none;
+color: black;
+text-align: center;
+}
+.socials a i
+{
+font-size: 1.5rem;
+transition: color .4s ease;
+}
+.socials a:hover i
+{
+color: rgb(139, 138, 139);
+}
+.foot_bottom
+{
+color: white;
+background:#66BFBF;
+width: 100vw;
+padding: 5px;
+text-align: center;
+height: 50px;
+position: absolute;
+bottom: 10px;
+left: 0;
+
+}
+.foot_bottom p
+{
+font-size: 16px;
+word-spacing: 2px;
+text-transform: capitalize;
+text-align: center;
+
+}
